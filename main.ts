@@ -1,8 +1,8 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// The entry: one funny line, read cold with no setup — fresh self-deprecation
-// that lands on the last word.
-const LINE = "My laptop fan sounds like it's doing the job I was hired for.";
+// The entry: one funny line, read cold with no setup. The original inversion
+// of inbox-zero: the zero exists, just never alone.
+const LINE = "My inbox has a zero somewhere in it. I've seen it. It's part of a number.";
 
 const outDir = "/output";
 mkdirSync(outDir, { recursive: true });
